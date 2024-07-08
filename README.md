@@ -56,6 +56,7 @@ docker-compose up --build
 
 #### Пример запроса:
 ```json
+/api/v1/equipment/cpe/123ABC
 {
   "timeoutInSeconds": 14,
   "parameters": [
@@ -89,6 +90,19 @@ docker-compose up --build
 ## Service B
 ### Создание задачи
 Endpoint: POST /api/v1/equipment/cpe/{id}
+#### Пример запроса 
+```json
+/api/v1/equipment/cpe/123ABC
+{
+  "timeoutInSeconds": 60,
+  "parameters": {
+    "username": "admin",
+    "password": "admin",
+    "vlan": 700,
+    "interfaces": [1, 2, 3]
+  }
+}
+```
 
 Пример ответа:
 

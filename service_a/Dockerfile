@@ -1,6 +1,6 @@
 FROM python:3.11
 
-WORKDIR /app
+WORKDIR /service_a
 
 COPY requirements.txt .
 COPY cert.pem .

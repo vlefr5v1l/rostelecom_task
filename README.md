@@ -55,8 +55,8 @@ docker-compose up --build
 ### Endpoint: POST /api/v1/equipment/cpe/{id}
 
 #### Пример запроса:
-```json
 /api/v1/equipment/cpe/123ABC
+```json
 {
   "timeoutInSeconds": 14,
   "parameters": [
@@ -91,8 +91,8 @@ docker-compose up --build
 ### Создание задачи
 Endpoint: POST /api/v1/equipment/cpe/{id}
 #### Пример запроса 
-```json
 /api/v1/equipment/cpe/123ABC
+```json
 {
   "timeoutInSeconds": 60,
   "parameters": {

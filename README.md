@@ -19,12 +19,16 @@
 project-root/
 │
 ├── service_a/
+│   ├──tests/
+│   │   └── tests.py
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   └──  app.py
 │   
 │
 ├── service_b/
+│   ├──tests/
+│   │   └── tests.py
 │   ├── Dockerfile
 │   ├── requirements.txt
 │   └── app.py

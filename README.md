@@ -136,8 +136,14 @@ Endpoint: GET /api/v1/equipment/cpe/{id}/task/{task}
 Для запуска тестов выполните команду:
 
 ```bash
-docker-compose exec service_a pytest tests/
-docker-compose exec service_b pytest tests/
+docker-compose exec service_a 
+cd tests
+pytest tests.py
+```
+```bash
+docker-compose exec service_b
+cd tests
+pytest tests.py
 ```
 
 
